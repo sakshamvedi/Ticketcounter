@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="my-10">
+        </header>
+    <div class="flex justify-center">
+        <div class="rounded-xl shadow-lg bg-white max-w-sm">
+          <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img class="rounded-t-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj8soilV_legzW0eq6DDhWuDj78lF34o6OXWiAmWEhD0yFBbo5WCqWZj-NiWKejIKQ7JA&usqp=CAU" alt=""/>
+          </a>
+          <div class="p-6">
+            <h1 class="text-gray-900 text-xl font-medium mb-2" id="count">0</h1>
+            <p class="text-gray-700 text-base mb-4">
+              Year : <p1 id="date">hi</p1>
+            </p>
+            <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" onclick="sets()">Sold </button>
+        </p>
+        <hr>
+        <button type="button" class=" inline-block  px-6 py-10.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" onclick="save()">Save Log </button>
+
+        <h1 class="text-gray-900 text-xl font-medium mb-2" id="saving">0</h1>
+
+          </div>
+        </div>
+      </div>
+
+      <script src="set.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
